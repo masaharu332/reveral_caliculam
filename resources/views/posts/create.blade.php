@@ -9,7 +9,7 @@
     <body>
         <h1>Blog Name</h1>
         <form action="/posts" method="POST">
-            @csrf
+        @csrf
             <div class='title'>
                 <h2>Title</h2>
                 <input type="text" name="post[title]" placeholder="タイトル"/>
