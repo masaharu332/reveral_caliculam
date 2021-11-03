@@ -9,7 +9,7 @@
     <body>
         <h1>編集画面</h1>
         <form action="/posts/{{$post->id}}" method="POST">
-        @csrf 
+        @csrf
         @method('PUT')
             <div class='title'>
                 <h2>Title</h2>
